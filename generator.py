@@ -8,7 +8,7 @@ def main():
     generate_word_cloud(dataset)
 
 def read_words_file():
-    words_list = open("./resources/wordsList.txt", "r").read()
+    words_list = open("./resources/words_list.txt", "r").read()
     words_list_lowercase = words_list.lower()
 
     return words_list_lowercase
